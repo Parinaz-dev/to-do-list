@@ -56,8 +56,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: 33px;
+    width: 100%;
+    margin-right: 8px;
 }
-.mini-text p {
+.p-text {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.mini-text .p-text p {
     margin: 0;
     padding: 0;
 }
@@ -69,6 +77,16 @@ body {
     background-color: white;
     margin-right: 5px;
 }
+
+
+.del-box {
+    width: 50%;
+}
+
+.del-box img {
+    width: 10%;
+}
+
 .forth {
     display: flex;
 justify-content: center;
