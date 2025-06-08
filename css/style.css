@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+
+.main-to-do {
+    margin: auto;
+    max-width: 1366px;
+}
+
+.first {
+    text-align: center;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.second input {
+    margin-left: 10px;
+}
+.mini-box {
+    width: 35px;
+    height: 20px;
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.mini-box img {
+    width: 40%;
+}
+
+/* .third {
+  
+} */
+.t-parent {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.back-c {
+    background-color: bisque;
+    width: 20%;
+    height: 33px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+}
+.mini-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mini-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.mini-text .tick {
+    width: 10px;
+    height: 10px;
+    border: 1px solid deeppink;
+    background-color: white;
+    margin-right: 5px;
+}
+.forth {
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.text-box {
+    margin-left: 30px;
+}
+
+.red-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-color: red;
+    width: 60px;
+    height: 25px;
+    border: 0;
+
+    border-radius: 5px;
+}
+
+.red-box p {
+ color: white;
+    font-size: 10px;
+}
