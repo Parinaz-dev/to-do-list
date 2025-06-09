@@ -23,11 +23,15 @@ body {
 .second input {
     margin-left: 10px;
 }
+.second button {
+    border: 0;
+}
 .mini-box {
+    cursor: pointer;
     width: 35px;
     height: 20px;
-    background-color: thistle;
     display: flex;
+    background-color: thistle;
     align-items: center;
     justify-content: center;
     border-radius: 3px;
@@ -98,14 +102,14 @@ align-items: center;
 }
 
 .red-box {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
- background-color: red;
+    background-color: red;
     width: 60px;
     height: 25px;
     border: 0;
-
     border-radius: 5px;
 }
 

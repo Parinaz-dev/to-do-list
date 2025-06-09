@@ -14,16 +14,16 @@
         </div>
         <div class="second">
           <input type="text" placeholder="افزودن جدید" />
-          <div class="mini-box">
+          <button class="mini-box">
             <img src="img/svg/plus.svg" alt="" />
-          </div>
+          </button>
         </div>
         <div class="third">
           <div class="t-parent">
             <div class="back-c">
               <div class="mini-text">
                 <div class="p-text">
-                  <p>text 1</p>
+                  <li>text 1</li>
                   <div class="tick"></div>
                 </div>
                 <div class="del-box">
@@ -87,11 +87,25 @@
           </div>
         </div>
       </div>
+
+      <div class="fifth">
+        <div class="parent-li">
+          <!-- <input  <li class="li">اولی</li> /> -->
+
+          <li class="li">دومی</li>
+          <li class="li">سومی</li>
+          <li class="li">چهارمی</li>
+          <li class="li">پنجمی</li>
+        </div>
+      </div>
     </div>
 
     <script>
-      let one = document.getElementsByClassName("mini-box");
-      one.style.backgroundColor = "#000000";
+      let minibox = document.getElementsByClassName("mini-box");
+      minibox[0].style.backgroundColor = "red";
+      minibox[0].addEventListener("click", function () {
+        minibox[0].style.backgroundColor = "green";
+      });
     </script>
   </body>
 </html>
