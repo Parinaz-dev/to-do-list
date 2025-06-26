@@ -1,111 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="parent-to-do">
-      <div class="main-to-do">
-        <div class="first">
-          <h3>لیست کارها</h3>
-        </div>
-        <div class="second">
-          <input type="text" placeholder="افزودن جدید" />
-          <button class="mini-box">
-            <img src="img/svg/plus.svg" alt="" />
-          </button>
-        </div>
-        <div class="third">
-          <div class="t-parent">
-            <div class="back-c">
-              <div class="mini-text">
-                <div class="p-text">
-                  <li>text 1</li>
-                  <div class="tick"></div>
-                </div>
-                <div class="del-box">
-                  <img src="img/png/delete.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="back-c">
-              <div class="mini-text">
-                <div class="p-text">
-                  <p>text 2</p>
-                  <div class="tick"></div>
-                </div>
-                <div class="del-box">
-                  <img src="img/png/delete.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="back-c">
-              <div class="mini-text">
-                <div class="p-text">
-                  <p>text 3</p>
-                  <div class="tick"></div>
-                </div>
-                <div class="del-box">
-                  <img src="img/png/delete.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="back-c">
-              <div class="mini-text">
-                <div class="p-text">
-                  <p>text 4</p>
-                  <div class="tick"></div>
-                </div>
-                <div class="del-box">
-                  <img src="img/png/delete.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="back-c">
-              <div class="mini-text">
-                <div class="p-text">
-                  <p>text 5</p>
-                  <div class="tick"></div>
-                </div>
 
-                <div class="del-box">
-                  <img src="img/png/delete.png" alt="" />
-                </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="parent-to-do">
+    <div class="main-to-do">
+      <div class="first">
+        <h3>لیست کارها</h3>
+      </div>
+      <div class="second">
+        <input type="text" placeholder="افزودن جدید" />
+        <button class="mini-box">
+          <img src="img/svg/plus.svg" alt="" />
+        </button>
+      </div>
+      <div class="third">
+        <div class="t-parent">
+          <div class="back-c">
+            <div class="mini-text">
+              <div class="p-text">
+                <li>text 1</li>
+                <div class="tick"></div>
+              </div>
+              <div class="del-box">
+                <img src="img/png/delete.png" alt="" />
               </div>
             </div>
           </div>
-        </div>
-        <div class="forth">
-          <div class="text-box">
-            <h6>شما 5 کار قابل انجام دارید</h6>
+          <div class="back-c">
+            <div class="mini-text">
+              <div class="p-text">
+                <p>text 2</p>
+                <div class="tick"></div>
+              </div>
+              <div class="del-box">
+                <img src="img/png/delete.png" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="red-box">
-            <p>حذف همه</p>
+          <div class="back-c">
+            <div class="mini-text">
+              <div class="p-text">
+                <p>text 3</p>
+                <div class="tick"></div>
+              </div>
+              <div class="del-box">
+                <img src="img/png/delete.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="back-c">
+            <div class="mini-text">
+              <div class="p-text">
+                <p>text 4</p>
+                <div class="tick"></div>
+              </div>
+              <div class="del-box">
+                <img src="img/png/delete.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="back-c">
+            <div class="mini-text">
+              <div class="p-text">
+                <p>text 5</p>
+                <div class="tick"></div>
+              </div>
+
+              <div class="del-box">
+                <img src="img/png/delete.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="fifth">
-        <div class="parent-li">
-          <!-- <input  <li class="li">اولی</li> /> -->
-
-          <li class="li">دومی</li>
-          <li class="li">سومی</li>
-          <li class="li">چهارمی</li>
-          <li class="li">پنجمی</li>
+      <div class="forth">
+        <div class="text-box">
+          <h6>شما 5 کار قابل انجام دارید</h6>
+        </div>
+        <div class="red-box">
+          <p>حذف همه</p>
         </div>
       </div>
     </div>
 
-    <script>
-      let minibox = document.getElementsByClassName("mini-box");
-      minibox[0].style.backgroundColor = "red";
-      minibox[0].addEventListener("click", function () {
-        minibox[0].style.backgroundColor = "green";
-      });
-    </script>
-  </body>
+    <!-- <div class="fifth">
+      <div class="parent-li">
+        <input  <li class="li">اولی</li> 
+
+        <li class="li">دومی</li>
+        <li class="li">سومی</li>
+        <li class="li">چهارمی</li>
+        <li class="li">پنجمی</li>
+      </div>
+    </div>  -->
+
+
+  </div>
+
+  <script>
+    let minibox = document.getElementsByClassName("mini-box");
+    minibox[0].style.backgroundColor = "red";
+    minibox[0].addEventListener("click", function () {
+      minibox[0].style.backgroundColor = "green";
+    });
+  </script>
+</body>
+
 </html>
