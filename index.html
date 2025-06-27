@@ -15,7 +15,7 @@
         <h3>لیست کارها</h3>
       </div>
       <div class="second">
-        <input type="text" placeholder="افزودن جدید" />
+        <input id="textinput" type="text" placeholder="افزودن جدید" />
         <button class="mini-box">
           <img src="img/svg/plus.svg" alt="" />
         </button>
@@ -90,17 +90,6 @@
       </div>
     </div>
 
-    <!-- <div class="fifth">
-      <div class="parent-li">
-        <input  <li class="li">اولی</li> 
-
-        <li class="li">دومی</li>
-        <li class="li">سومی</li>
-        <li class="li">چهارمی</li>
-        <li class="li">پنجمی</li>
-      </div>
-    </div>  -->
-
 
   </div>
 
@@ -110,6 +99,23 @@
     minibox[0].addEventListener("click", function () {
       minibox[0].style.backgroundColor = "green";
     });
+
+
+    const textinput = document.getElementById("textinput");
+    const task = taskinput.value;
+    const minibox = document.getElementsByClassName("mini-box");
+
+    const deleteall = document.getElementsByClassName("red-box");
+
+    textinput.addEventListener("click", function () {
+
+    })
+
+
+
+
+
+
   </script>
 </body>
 
